@@ -1,0 +1,129 @@
+#footer{
+    position: relative;
+    height: 100vh;
+    margin-top: 20px;
+    padding: 160px 0;
+    z-index: 2;
+}
+
+footer{
+    position: absolute;
+    bottom: -200px;
+    width: 100%;
+}
+
+.footer-subscribe{
+    text-align: center;
+}
+
+#all-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-subscribe h2 {
+    font: 600 14px arial;
+    text-transform: capitalize;
+}
+
+.footer-subscribe p {
+    font: 400 13px arial;
+    line-height: 1.8;
+    color: #868e96;
+    padding: 10px 0;
+}
+
+.footer-subscribe input{
+    padding: 6px 18px;
+    font: 500 16px arial;
+    line-height: 1.5;
+    color: #495057;
+    border: 1px solid #ced4da;
+    outline: none;
+    margin-right: 10px;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+
+.footer-subscribe input:focus{
+    border-color: #ff7404;
+}
+
+.footer-subscribe button{
+    background-color: #ff7404;
+    border-color: #ff7404;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    color: #fff;
+    border: 1px solid transparent;
+    font: 500 10px arial;
+    padding: 10px 12px;
+    line-height: 1.2;
+    margin-left: 10px;
+    transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+}
+
+.footer-subscribe button:hover{
+    border-color: #ff9037;
+    background: #ff9037;
+}
+
+::placeholder{
+    text-transform: capitalize;
+    font: 500 14px arial;
+    color: #868e96;
+}
+
+#all-footer{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+
+}
+
+.footer-icon{
+    margin-top: 50px;
+    display: flex;
+    justify-content: start;
+    gap: 15px;
+    color: #ff7404;
+    font-size: 12px;
+}
+.footer-content h2,.footer-hours h2,.footer-links h2,.contact-info{
+    font: 600 16px arial;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.contact-info{
+    margin-top: 50px;
+}
+.footer-hours p,.contact-info article{
+    font: 500 15px arial;
+}
+.contact-info article{
+    margin-bottom: 10px;
+}
+.contact-info address,a{
+    color: #868e96;
+    font: 500 15px arial;
+    margin-bottom: 20px;
+}
+.footer-hours span{
+    color: #868e96;
+}
+.footer-hours strong{
+    display: block;
+    margin-bottom: 10px;
+}
+.footer-content p{
+    color: #868e96;
+    font: 500 15px arial;
+    width: 330px;
+    line-height: 25px;
+}
+.footer-links a{
+    display: block;
+    color: #ff7404;
+    font: 500 16px arial;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}

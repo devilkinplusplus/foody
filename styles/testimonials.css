@@ -1,0 +1,54 @@
+#testimonials{
+    margin-top: 100px;
+    padding-top: 140px;
+    position: relative;
+    z-index: 2;
+}
+
+#testimonials h3{
+    margin-bottom: 48px;
+}
+
+.testimonial{
+    margin: 0 auto;
+    width: 450px;
+}
+
+.testimonial p {
+    font: 400 18px arial;
+    color: #000;
+    margin-bottom: 16px;
+    line-height: 1.8;
+}
+
+.profile{
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.profile img {
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile-about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+
+.profile-about h6{
+    font: 500 14px arial;
+    line-height: 1.2;
+    text-transform: capitalize;
+}
+
+.profile-about span{
+    color: #cccccc;
+    font:400 10px arial;
+    line-height: 1.8;
+}
+

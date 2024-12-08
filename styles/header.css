@@ -1,0 +1,92 @@
+header{
+    height: 90vh;
+    background: linear-gradient(#00000038,#00000024),url("../assets/hero_1.jpg") center/cover;
+    padding: 40px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+nav ul a {
+    font: 400 14px arial;
+    transition: 0.4s;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+nav ul a :hover{
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.fa-sort-down{
+    font-size: 10px;
+}
+
+
+.dropdown-link{
+    position: relative;
+}
+
+nav li:hover .dropdown{
+    display: block;
+    max-height: 150px;
+    padding: 12px 10px;
+}
+
+.dropdown {
+    transition: .5s;
+    max-height: 0px;
+    overflow: hidden;
+    position: absolute;
+    width: 120px;
+    top: 80px;
+    background-color: #fff;
+    border-radius: 5px;
+    display: block;
+    li{
+        a{
+            display: block;
+            color: #000;
+        }
+    }
+}
+
+
+.logo{
+    color: #fff;
+    font: 800 28px arial;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+}
+
+.active{
+    color: #ff7404 !important;
+}
+
+nav button{
+    background: #ff7404;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    line-height: 1;
+    font: 600 10px arial;
+    transition: .3s all ease;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+nav button:hover{
+    background: #fff;
+    color: #ff7404;
+}
+
